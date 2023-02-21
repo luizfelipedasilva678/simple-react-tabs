@@ -1,8 +1,8 @@
 import { TabProps } from '../../typings/Tab'
 
-export const Tab = ({ active, children }: TabProps) => {
-  if (!children) {
-    throw new Error('Tab has no children')
+export const Tab = ({ active, children, label }: TabProps) => {
+  if (!children || !label) {
+    throw new Error('You must specify a label and a children for Tab')
   }
 
   return <> {active ? children : <></>} </>
