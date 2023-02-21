@@ -30,4 +30,22 @@ export default Example
 
 ### Components
 
-#### <Tab />
+#### \<TabLayout /\>
+
+---
+
+#### \<Tab /\>
+
+##### label: `string`
+
+## Styling
+
+simple-react-tabs come with some default styles with you want to overwrite them just add this classes to your css files.
+
+- `tab-layout__tabs`
+- `tab-layout__content`
+- `tab-layout__tab`
+- `tab-layout__tab--selected`
+
+
+
