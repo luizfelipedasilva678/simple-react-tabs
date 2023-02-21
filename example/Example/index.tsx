@@ -1,5 +1,6 @@
 import React from 'react'
 import { Tab, TabLayout } from 'simple-react-tabs'
+import './style.css'
 
 const Example = () => {
   return (
