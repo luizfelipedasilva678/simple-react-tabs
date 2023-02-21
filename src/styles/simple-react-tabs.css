@@ -1,0 +1,25 @@
+.tab-layout__tabs,
+.tab-layout__content {
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+.tab-layout__tabs {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-layout__content {
+  padding: 1.2em;
+}
+
+.tab-layout__tab {
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+
+.tab-layout__tab--selected {
+  border-bottom: solid 1px #000;
+}
