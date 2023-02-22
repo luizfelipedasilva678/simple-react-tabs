@@ -1,6 +1,5 @@
 import React, { useState, Children } from 'react'
 import { TabLayoutProps } from '../../typings/TabLayout'
-import { nanoid } from 'nanoid'
 import '../../styles/simple-react-tabs.css'
 
 export const TabLayout = ({ children }: TabLayoutProps) => {
@@ -32,7 +31,7 @@ export const TabLayout = ({ children }: TabLayoutProps) => {
             className={`tab-layout__tab ${
               currentTab === index ? 'tab-layout__tab--selected' : ''
             } `}
-            key={nanoid()}
+            key={index}
             onClick={() => setCurrentTab(index)}
           >
             {label}
