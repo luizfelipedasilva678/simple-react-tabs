@@ -1,4 +1,5 @@
 # simple-react-tabs
+
 Simple tab component for ReactJS
 
 ## Example of Usage
@@ -46,6 +47,4 @@ simple-react-tabs come with some default styles with you want to overwrite them 
 - `tab-layout__content`
 - `tab-layout__tab`
 - `tab-layout__tab--selected`
-
-
-
+- `tab-layout__btn`
