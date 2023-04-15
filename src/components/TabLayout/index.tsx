@@ -32,9 +32,13 @@ export const TabLayout = ({ children }: TabLayoutProps) => {
               currentTab === index ? 'tab-layout__tab--selected' : ''
             } `}
             key={index}
-            onClick={() => setCurrentTab(index)}
           >
-            {label}
+            <button
+              className={'tab-layout__btn'}
+              onClick={() => setCurrentTab(index)}
+            >
+              {label}
+            </button>
           </li>
         ))}
       </ul>

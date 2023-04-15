@@ -85,7 +85,7 @@ describe('TabLayout', () => {
     const tab2 = queryAllByText('Tab 2')
     const tab3 = queryAllByText('Tab 3')
 
-    expect(tab1[0].classList.contains(CLASS)).toBe(true)
+    expect(tab1[0].parentElement?.classList.contains(CLASS)).toBe(true)
     expect(tab2[0].classList.contains(CLASS)).toBe(false)
     expect(tab3[0].classList.contains(CLASS)).toBe(false)
   })
